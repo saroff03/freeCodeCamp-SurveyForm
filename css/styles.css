@@ -1,0 +1,37 @@
+body {
+background: url("../images/background.png") no-repeat fixed;
+background-size: cover;
+height: 100%;
+}
+.container {
+  max-width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10em;
+}
+textarea {
+  resize: none;
+}
+#occupationSelect {
+  text-align: center;
+}
+#favouriteFeaturesSelect {
+  text-align: center;
+}
+.btn {
+  background-color: #f5a99c;
+  color: white;
+  width: 40%;
+}
+#headerDiv {
+  background-color: #256b9e;
+  margin-top: 0;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 1px 1px 12px #BABABA;
+}
+@media (max-width: 576px) {
+  .container {
+    margin-top: 1em;
+  }
+}
